@@ -1,0 +1,6 @@
+﻿配置,num_heads,num_layers,参数量,输出 shape,输出 shape 与输入相同
+"原始配置 (num_heads=2, num_layers=2)",2,2,1744,"(2, 4, 8)",True
+只改 num_heads: 2 -> 4,4,2,1744,"(2, 4, 8)",True
+只改 num_layers: 2 -> 4,2,4,3488,"(2, 4, 8)",True
+两个都改: 4 / 4,4,4,3488,"(2, 4, 8)",True
+"num_heads=8, num_layers=1",8,1,872,"(2, 4, 8)",True
